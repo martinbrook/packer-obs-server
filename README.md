@@ -21,14 +21,14 @@ Add http and https access to the security settings for the instance.
 
 ##Tested
 
-*Create Project
-*Create Package
-*Connect to build.opensuse.org
-*Test package build against remote repo
+* Create Project
+* Create Package
+* Connect to build.opensuse.org
+* Test package build against remote repo
 
 ##known issues
 
-*landing page on http:// references initial AWS public IP
-*repository references in GUI point to inital AWS public IP
+* landing page on http:// references initial AWS public IP
+* repository references in GUI point to inital AWS public IP
 
 
