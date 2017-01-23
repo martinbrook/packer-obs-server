@@ -2,7 +2,7 @@
 create obs-server with packer for aws
 
 ##Install
-Create a file to hold your AWS credentials
+Clone this repo and create a file to hold your AWS credentials
 
 eg variables.json
 ~~~~
