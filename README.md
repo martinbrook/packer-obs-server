@@ -12,12 +12,12 @@ eg variables.json
 }
 ~~~~
 
-##Create ami
+##Create Ami
 
 `packer build -var-file=variables.json obs-server.json`
 
-##Launch instance
-Add http and https access to the security settings for the instance.
+##Launch Instance
+Add http and https access to the security settings for the instance. Look at controlling instance via terraform
 
 ##Tested
 
@@ -26,8 +26,10 @@ Add http and https access to the security settings for the instance.
 * Connect to build.opensuse.org
 * Test package build against remote repo
 
-##known issues
+##Known Issues and TODO
 
+* configure with static IP
+* needs Let's Encrypt cert 
 * landing page on http:// references initial AWS public IP
 * repository references in GUI point to inital AWS public IP
 
