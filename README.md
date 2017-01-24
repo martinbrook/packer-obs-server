@@ -17,7 +17,7 @@ eg variables.json
 `packer build -var-file=variables.json obs-server.json`
 
 ##Launch Instance
-Add http and https access to the security settings for the instance. Look at controlling instance via terraform
+Add http(80), https(443) and repo(82) access to the security group for the instance.
 
 ##Tested
 
@@ -30,7 +30,7 @@ Add http and https access to the security settings for the instance. Look at con
 
 * configure with static IP
 * needs Let's Encrypt cert 
-* landing page on http:// references initial AWS public IP
-* repository references in GUI point to inital AWS public IP
-
+* landing page on http:// references initial AWS public IP - only run setup script after packer run - boot.local
+* repository references in GUI point to inital AWS public IP - only run setup script afer packer run - boot.local
+* look at controlling the instance via terraform
 
