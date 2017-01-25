@@ -20,11 +20,16 @@
       "destination": "/bin/ec2-public-hostname"
     },
     {
+      "type": "file",
+      "source": "setup-appliance.sh",
+      "destination": "/root/setup-appliance.sh"
+    },
+    {
       "type": "shell",
       "scripts": [
-          "install-obs-packages.sh",
-          "setup-appliance.sh"
+          "install-obs-packages.sh"
       ]
     }
   ]
 }
+
