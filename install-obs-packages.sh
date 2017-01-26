@@ -4,3 +4,4 @@ zypper -n dup -l --replacefiles
 zypper update
 zypper install -y --replacefiles -t pattern OBS_Server
 echo /root/setup-appliance.sh >> /etc/init.d/boot.local
+chmod +x /root/setup-appliance.sh
