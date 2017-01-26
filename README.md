@@ -30,7 +30,7 @@ Add http(80), https(443) and repo(82) access to the security group for the insta
 
 * configure with static IP
 * needs Let's Encrypt cert 
-* landing page on http:// references initial AWS public IP - only run setup script after packer run - boot.local
-* repository references in GUI point to inital AWS public IP - only run setup script afer packer run - boot.local
+* landing page on http:// references local IP - find time to run setup script
+* repository references in GUI point to  IP - find time to run setup script
 * look at controlling the instance via terraform
 
