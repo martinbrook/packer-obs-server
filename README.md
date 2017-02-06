@@ -29,7 +29,4 @@ Add http(80), https(443) and repo(82) access to the security group for the insta
 ##Known Issues and TODO
 
 * needs Let's Encrypt cert 
-* landing page on http:// references local IP - find right time to run setup script
-* repository references in GUI point to local IP - find right time to run setup script
 * look at controlling the instance via terraform
-
