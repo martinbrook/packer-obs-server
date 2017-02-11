@@ -17,7 +17,7 @@ eg variables.json
 `packer build -var-file=variables.json obs-server.json`
 
 ##Launch Instance
-Add http(80), https(443) and repo(82) access to the security group for the instance.
+Add http(80), https(443), repo(82), worker(5252, 5352) access to the security group for the instance.
 
 ##Tested
 
